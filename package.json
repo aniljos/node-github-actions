@@ -13,11 +13,12 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2"
-  },
-  "devDependencies": {
+    "jsonwebtoken": "^9.0.2",
     "jest": "^29.7.0",
     "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    
   },
   "jest": {
     "testEnvironment": "node"
