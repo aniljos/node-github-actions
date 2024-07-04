@@ -22,5 +22,5 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 20.15.0
-    - name: run
-      run: test
+    - name: npm run test
+      run: npm test
