@@ -20,10 +20,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag sampple-nodejs-app:latest
     - name: Tag the Docker image
-      run: docker tag sampple-nodejs-app:latest anil.jos/sampple-nodejs-app:latest
+      run: docker tag sample-nodejs-app:latest aniljos/nodejs:sample-nodejs-app:latest
     - name: Push the Docker image
-      run: docker push anil.jos/sampple-nodejs-app:latest
+      run: docker push aniljos/nodejs:sample-nodejs-app:latest
     
-
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
