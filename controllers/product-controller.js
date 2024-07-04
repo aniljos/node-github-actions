@@ -31,7 +31,7 @@ productsRouter.get('/:id', (req, res) => {
     const product = products.find(product => product.id === id);
 
     if (!product) {
-        res.status(404).send('Product not found');
+        res.status(400).send('Product not found');
     }
 
     res.json(product);
