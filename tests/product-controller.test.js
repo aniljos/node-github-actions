@@ -12,7 +12,7 @@ describe('GET /products', () => {
     const response = await request(app).get('/products');
     expect(response.statusCode).toBe(200);
     expect(response.body).toBeInstanceOf(Array);
-    expect(response.body.length).toBe(9); // Adjust this based on your initial data
+    expect(response.body.length).toBe(10); // Adjust this based on your initial data
   });
 });
 
